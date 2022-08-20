@@ -51,4 +51,5 @@ proxies:
     - { name: V2|菲律宾A01|IDC, type: vmess, server: node.a.access.in.nyapi.buzz, port: '25018', uuid: fad3ad96-7502-4a1f-84f9-a5df562c3759, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: SS|南非A01|IDC, type: ss, server: node.a.access.in.nyapi.buzz, port: 25022, cipher: chacha20-ietf-poly1305, password: fad3ad96-7502-4a1f-84f9-a5df562c3759, udp: true }
     - { name: V2|南非A01|IDC, type: vmess, server: node.a.access.in.nyapi.buzz, port: '25021', uuid: fad3ad96-7502-4a1f-84f9-a5df562c3759, alterId: 0, cipher: auto, udp: true, network: ws }
-    - { name: 下载|美国1, type: vmess, server: 20.188.11.187, port: '80', uuid: fad3ad96-7502-4a1f-84f9-a5df562c3759, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: node.free.usa.naiun.pw } }, ws-path: /, ws-headers: { Host: node.free.usa.naiun.pw } }
+    - { name: 下载|美国1, type: vmess, server: 20.188.11.187, port: '80', uuid: fad3ad96-7502-4a1f-84f9-a5df562c3759, alterId: 0, cipher: auto, udp: true, network: ws }
+}
